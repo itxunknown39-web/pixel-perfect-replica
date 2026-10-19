@@ -80,15 +80,15 @@ export function Hero() {
             style={{ left: u(24), top: u(196), width: u(332), height: u(680), objectPosition: "52% 50%" }}
           />
 
-          <div style={{ left: u(1672), top: u(560), width: 0, height: 0 }}>
+          <div style={{ left: u(1790), top: u(520), width: 0, height: 0 }}>
             <Dial size={u(780)} inner={u(440)} ring={u(305)} fontSize={u(56)} />
           </div>
 
           <h1 className="m-0 contents">
-            <span className="a-rise gold-text font-extrabold uppercase leading-[0.86] tracking-[-0.03em]" style={{ left: u(392), top: u(118), fontSize: u(222) }}>
+            <span className="a-rise absolute gold-text font-extrabold uppercase leading-[0.86] tracking-[-0.03em]" style={{ left: u(392), top: u(118), fontSize: u(222) }}>
               Try
             </span>
-            <span className="a-wipe gold-text font-extrabold uppercase leading-[0.86] tracking-[-0.03em]" style={{ left: u(392), top: u(352), fontSize: u(222) }}>
+            <span className="a-wipe absolute gold-text font-extrabold uppercase leading-[0.86] tracking-[-0.03em]" style={{ left: u(392), top: u(352), fontSize: u(222) }}>
               Kamran
             </span>
           </h1>
@@ -112,7 +112,7 @@ export function Hero() {
               <li
                 key={s}
                 className="a-pill rounded-full border-2 border-gold font-semibold text-gold lowercase whitespace-nowrap"
-                style={{ fontSize: u(22), padding: `${u(12)} ${u(26)}`, animationDelay: `${1.6 + i * 0.1}s` }}
+                style={{ fontSize: u(20), padding: `${u(10)} ${u(22)}`, animationDelay: `${1.6 + i * 0.1}s` }}
               >
                 {s}
               </li>
@@ -123,7 +123,7 @@ export function Hero() {
 
       {/* Mobile: recomposed */}
       <div className="relative overflow-hidden px-5 pb-14 pt-24 md:hidden">
-        <div className="absolute right-0 top-28 h-0 w-0">
+        <div className="absolute right-[-40px] top-48 h-0 w-0">
           <Dial size="300px" inner="170px" ring="118px" fontSize="22px" />
         </div>
         <span className="a-year relative block text-3xl font-bold text-gold">2026</span>
