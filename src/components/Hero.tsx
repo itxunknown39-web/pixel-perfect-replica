@@ -96,7 +96,7 @@ export function Hero() {
           <div
             aria-hidden
             className="a-frame border-2 border-gold"
-            style={{ left: u(376), top: u(342), width: u(940), height: u(212), ["--h" as string]: u(14) }}
+            style={{ left: u(376), top: u(342), width: u(966), height: u(212), ["--h" as string]: u(14) }}
           >
             <Handles />
           </div>
