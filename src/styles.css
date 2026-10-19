@@ -114,8 +114,8 @@
 @keyframes dcPill { from { opacity: 0; transform: translateY(60%) scale(0.92); } to { opacity: 1; transform: none; } }
 @keyframes dcDial { from { opacity: 0; transform: translate(-50%, -50%) rotate(-40deg) scale(0.85); } to { opacity: 1; transform: translate(-50%, -50%) rotate(0) scale(1); } }
 @keyframes dcYear { from { clip-path: inset(100% 0 0 0); transform: translateY(20%); } to { clip-path: inset(0 0 0 0); transform: none; } }
-@keyframes dcOrbit { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-@keyframes dcUpright { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+@keyframes dcOrbit { from { transform: rotate(-60deg); } to { transform: rotate(0deg); } }
+@keyframes dcUpright { from { rotate: 60deg; } to { rotate: 0deg; } }
 @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
 
 .a-char { animation: dcChar 1.1s cubic-bezier(.22,1,.36,1) .1s both; }
@@ -127,8 +127,8 @@
 .a-pill { animation: dcPill .6s cubic-bezier(.22,1,.36,1) both; }
 .a-dial { animation: dcDial 1.4s cubic-bezier(.22,1,.36,1) .5s both; }
 .a-year { animation: dcYear .9s cubic-bezier(.22,1,.36,1) 1.1s both; }
-.a-orbit { animation: dcOrbit 40s linear 2s infinite; }
-.a-upright { animation: dcUpright 40s linear 2s infinite; }
+.a-orbit { animation: dcOrbit 1.4s cubic-bezier(.22,1,.36,1) .8s both; }
+.a-upright { animation: dcUpright 1.4s cubic-bezier(.22,1,.36,1) .8s both; }
 .a-fade { animation: fadeUp .8s cubic-bezier(.22,1,.36,1) both; }
 
 @media (prefers-reduced-motion: reduce) {
