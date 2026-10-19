@@ -84,7 +84,7 @@ export function Hero() {
             <span className="a-rise absolute gold-text font-black uppercase leading-none tracking-[-0.02em]" style={{ left: u(366), top: u(206), fontSize: u(250) }}>
               Try
             </span>
-            <span className="a-wipe absolute gold-text font-black uppercase leading-none tracking-[-0.02em]" style={{ left: u(392), top: u(424), fontSize: u(222) }}>
+            <span className="a-wipe absolute gold-text font-black uppercase leading-none tracking-[-0.02em]" style={{ left: u(398), top: u(444), fontSize: u(206), letterSpacing: "-0.03em" }}>
               Kamran
             </span>
           </h1>
@@ -120,7 +120,7 @@ export function Hero() {
       {/* Mobile: recomposed */}
       <div className="relative overflow-hidden px-5 pb-14 pt-24 md:hidden">
         <div className="absolute right-[-40px] top-48 h-0 w-0">
-          <Dial size="300px" inner="170px" ring="118px" fontSize="22px" />
+          <Dial size="260px" thickness="26px" ring="117px" fontSize="22px" />
         </div>
         <span className="a-year relative block text-3xl font-bold text-gold">2026</span>
         <h1 className="relative mt-2 font-display font-extrabold uppercase leading-[0.86] tracking-[-0.03em]">
